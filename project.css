@@ -1,0 +1,35 @@
+p.blue {
+color:blue;
+  font-size: 25px;
+  font-family: helvetica;
+}
+p.green {
+  color:green;
+  font-size:30px;
+  font-family: arial;
+}
+h1.capital {
+  text-transform: uppercase;}
+p.me {position: absolute;
+top:50px;
+bottom: 40px;
+left: 40px;}
+
+p.you {position: fixed;
+top: 70px;
+right:43px;}
+
+p.them {position:relative;
+bottom: auto;
+top:auto;
+left: 70px;}
+p.me, p.you, p.them { color:red;}
+.random {font-weight:bold;}
+p.blue {background-color: black;
+padding: 20px;
+border-color: white;
+border-width: 2px;
+border-style: solid;
+margin: 20px;
+margin-top: 100px;
+margin-left: 20px;}
